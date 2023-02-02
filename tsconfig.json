@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./lib",
+        "allowJs": true,
+        "target": "es5",
+        "declaration": true,
+        "noImplicitAny": true,
+        "baseUrl": "./src",
+        "moduleResolution": "node",
+        "paths": {
+            "~/*": ["./*"]
+        }
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
